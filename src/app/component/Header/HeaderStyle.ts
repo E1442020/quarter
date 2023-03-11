@@ -20,5 +20,5 @@ export const SelectContainer = styled<any>(Flex)`
 export const Container = styled<any>(Box)`
   position: relative;
   top: -70px;
-  z-index: 9999999999999999;
+  z-index:1;
 `;

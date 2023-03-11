@@ -7,7 +7,7 @@ import { SelectContainer,Container } from "./HeaderStyle";
 export default function Header() {
   return (
     <>
-      <Box bg="#F2F6F7" mt="50px" py="20px" className="c">
+      <Box bg="#F2F6F7" mt="50px" py="20px" >
         <Box w="90%" pt="60px" mx="auto">
           <Carousel
             align="start"
