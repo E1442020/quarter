@@ -28,6 +28,7 @@ export default function Header() {
                 sx={(theme) => ({
                   "@media (max-width: 940px)": {
                     width: "100%",
+                    height:'100%',
                     flexDirection: "column",
                     gap: "40px",
                   },
@@ -66,7 +67,8 @@ export default function Header() {
                     Ducimus, molestias!
                   </Box>
                   <Flex direction="row" align="center" gap={20}>
-                    <Button bg="#FF5A3C" px="60px" color="white">
+                    <Button color="orange.8" px="60px" 
+                   >
                       Make An Equiry
                     </Button>
                     <AiFillPlayCircle size={30} style={{ color: "#FF5A3C" }} />
@@ -78,7 +80,7 @@ export default function Header() {
                   sx={(theme) => ({
                     "@media (max-width: 940px)": {
                       width: "100%",
-                      height: "400px",
+                      height: "600px",
                     },
                   })}
                 >
@@ -98,6 +100,7 @@ export default function Header() {
                 sx={(theme) => ({
                   "@media (max-width: 940px)": {
                     width: "100%",
+                    height:'100%',
                     flexDirection: "column",
                     gap: "40px",
                   },
@@ -152,7 +155,7 @@ export default function Header() {
                     Ducimus, molestias!
                   </Box>
                   <Flex direction="row" align="center" gap={20}>
-                    <Button bg="#FF5A3C" px="60px" color="white">
+                    <Button  px="60px" color="orange.8">
                       Make An Equiry
                     </Button>
                     <AiFillPlayCircle size={30} style={{ color: "#FF5A3C" }} />
@@ -192,7 +195,7 @@ export default function Header() {
               { value: "Single Family Home", label: "Single Family Home" },
             ]}
           />
-          <Button px="xl" bg="#FF5A3C">
+          <Button px="xl" color='orange.8'>
             Find Now
           </Button>
         </SelectContainer>

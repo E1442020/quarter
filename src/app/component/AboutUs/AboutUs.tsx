@@ -104,7 +104,7 @@ export default function AboutUs() {
               "Enimad minim veniam quis nostrud exercitation llamco laboris.
               Lorem ipsum dolor sit amet"
             </HintContainer>
-            <Button bg="#FF5A3C" w="30%" ta="center">
+            <Button color='orange.8' w="30%" ta="center">
               Our Services
             </Button>
           </Flex>

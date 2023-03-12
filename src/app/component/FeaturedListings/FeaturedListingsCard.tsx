@@ -1,16 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Image,
-  Text,
-  Badge,
-  Button,
-  Group,
-  Box,
-  Title,
-  Flex,
-  Avatar,
-} from "@mantine/core";
+import { Card, Text, Box, Title, Flex, Avatar } from "@mantine/core";
 import { BiBed, BiBath } from "react-icons/bi";
 import {
   AiFillCar,
@@ -29,10 +18,10 @@ export default function FeaturedListingsCard(props: any) {
             <img src={props.img} alt="" height="250px" width="100%" />
           </Card.Section>
           <Flex direction="column" gap="xl">
-            <Text mt="md" color="#FF5A3C" fw='800'>$34.900/Month</Text>
-            <Title order={4} >
-              {props.title}
-            </Title>
+            <Text mt="md" color="#FF5A3C" fw="800">
+              $34.900/Month
+            </Text>
+            <Title order={4}>{props.title}</Title>
 
             <Text size="sm" color="dimmed">
               With Fjord Tours you can explore more of the magical fjord

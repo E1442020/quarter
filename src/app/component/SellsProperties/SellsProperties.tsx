@@ -1,6 +1,6 @@
 import { Box, Flex, Text, Title } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { Modal, Button, Group } from "@mantine/core";
+import { Modal, Group } from "@mantine/core";
 import { Carousel } from "@mantine/carousel";
 
 import React from "react";
@@ -39,7 +39,7 @@ export default function SellsProperties() {
               },
             })}
           >
-            <Text bg="#FFEEEB" color="#FF5A3C" p={10} w="20%" ta="center">
+            <Text bg="#FFEEEB" color="#FF5A3C" p={10} w="25%" ta="center">
               About Us
             </Text>
             <Title order={2} size="45px" fw="700">
@@ -77,46 +77,106 @@ export default function SellsProperties() {
                 <Text color="gray">Live Music Cocerts at Luviana</Text>
               </Flex>
             </Flex>
-            <Flex direction="row" gap="15px">
-              <Flex direction="column" gap="5px">
+            <Flex
+              gap="15px"
+              wrap="wrap"
+              sx={(theme) => ({
+                "@media (max-width: 940px)": {
+                  alignItems: "center",
+                },
+              })}
+            >
+              <Flex
+                direction="column"
+                gap="15px"
+                align="center"
+                justify="center"
+              >
                 <Text>
                   3 <BiBed />{" "}
                 </Text>
                 <Text>Bedrooms</Text>
               </Flex>
               <hr />
-              <Flex direction="column" gap="5px">
+              <Flex
+                direction="column"
+                gap="15px"
+                align="center"
+                justify="center"
+              >
                 <Text>
                   2 <BiBath />{" "}
                 </Text>
                 <Text>Bathrooms</Text>
               </Flex>
               <hr />
-              <Flex direction="column" gap="5px">
+              <Flex
+                direction="column"
+                gap="15px"
+                align="center"
+                justify="center"
+              >
                 <Text>
                   2 <AiFillCar />{" "}
                 </Text>
                 <Text>Car parking</Text>
               </Flex>
               <hr />
-              <Flex direction="column" gap="5px">
+              <Flex
+                direction="column"
+                gap="15px"
+                align="center"
+                justify="center"
+              >
                 <Text>
                   3450 <TbSquare />{" "}
                 </Text>
                 <Text>square Ft</Text>
               </Flex>
             </Flex>
-          <Box >
-          <Flex direction="row" gap="12px" justify="space-between">
-              <Modal
-                opened={opened}
-                onClose={close}
-                size="xl"
-              >
-                <Carousel  loop
-            slideSize="100%" align='start' height={450}>
-                  <Carousel.Slide >
-                    {" "}
+            <Box>
+              <Flex direction="row" gap="12px" justify="space-between">
+                <Modal opened={opened} onClose={close} size="xl">
+                  <Carousel loop slideSize="100%" align="start" height={450}>
+                    <Carousel.Slide>
+                      {" "}
+                      <img
+                        src={img1}
+                        alt=""
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      {" "}
+                      <img
+                        src={img2}
+                        alt=""
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <img
+                        src={img3}
+                        alt=""
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <Group position="center" w="200px" h="130px">
+                  <Box onClick={open}>
                     <img
                       src={img1}
                       alt=""
@@ -126,9 +186,10 @@ export default function SellsProperties() {
                         objectFit: "cover",
                       }}
                     />
-                  </Carousel.Slide>
-                  <Carousel.Slide>
-                    {" "}
+                  </Box>
+                </Group>
+                <Group position="center" w="200px" h="130px">
+                  <Box onClick={open}>
                     <img
                       src={img2}
                       alt=""
@@ -138,8 +199,10 @@ export default function SellsProperties() {
                         objectFit: "cover",
                       }}
                     />
-                  </Carousel.Slide>
-                  <Carousel.Slide>
+                  </Box>
+                </Group>
+                <Group position="center" w="200px" h="130px">
+                  <Box onClick={open}>
                     <img
                       src={img3}
                       alt=""
@@ -149,50 +212,10 @@ export default function SellsProperties() {
                         objectFit: "cover",
                       }}
                     />
-                  </Carousel.Slide>
-                </Carousel>
-              </Modal>
-              <Group position="center" w="200px" h="130px">
-                <Box  onClick={open}>
-                  <img
-                    src={img1}
-                    alt=""
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                </Box>
-              </Group>
-              <Group position="center" w="200px" h="130px">
-                <Box  onClick={open}>
-                  <img
-                    src={img2}
-                    alt=""
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                </Box>
-              </Group>
-              <Group position="center" w="200px" h="130px">
-                <Box  onClick={open}>
-                  <img
-                    src={img3}
-                    alt=""
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                </Box>
-              </Group>
-            </Flex>
-          </Box>
+                  </Box>
+                </Group>
+              </Flex>
+            </Box>
           </Flex>
           <Box
             w="45%"

@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../../shared/images/logo.png";
 import { FaLocationArrow } from "react-icons/fa";
 import pay from "../../../shared/images/pay.png";
-import { ButtonContainer } from "../Affix/AffixStyle";
+import { hover } from "@testing-library/user-event/dist/hover";
 export default function Footer() {
   return (
     <>
@@ -44,7 +44,7 @@ export default function Footer() {
             </Title>
             <Text>We can help you realize your dream of a new home</Text>
           </Flex>
-          <Button bg="white" c="black">
+          <Button color="violet.0" c="black">
             Explore Properties
           </Button>
         </Flex>
@@ -130,14 +130,20 @@ export default function Footer() {
             </Text>
             <Flex>
               <Input radius="0" placeholder="Email*" />
-              <ButtonContainer>
+              <Button color='orange.8' styles={{
+                root:{
+                  borderRadius:'0',
+                 
+                },
+               
+              }}>
                 <FaLocationArrow />
-              </ButtonContainer>
+              </Button>
             </Flex>
 
             <Title order={3}>We Accept</Title>
-            <Box>
-              <img src={pay} alt="" />
+            <Box w='100%'>
+              <img src={pay} alt="" width='100%' />
             </Box>
           </Flex>
         </Flex>

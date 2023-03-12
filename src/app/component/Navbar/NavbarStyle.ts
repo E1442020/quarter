@@ -1,7 +1,6 @@
 import { Box } from '@mantine/core';
 import styled from 'styled-components'
 export const NavbarContainer=styled<any>(Box)`
-
 position: sta;
     left: 0;
     right: 0;

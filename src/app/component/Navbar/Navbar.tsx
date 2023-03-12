@@ -26,15 +26,16 @@ export default function Navbar() {
           align="center"
           direction="row"
           w="90%"
-          ml="auto"
-          mr="auto"
+         mx='auto'
+         pt='md'
           sx={(theme) => ({
                
         
             '@media (max-width: 940px)': {
-                width:'100%',
+                width:'90%',
               flexDirection:'column',
-              gap:'20'
+              gap:'20px'
+
               
             },
           })}
@@ -66,25 +67,33 @@ export default function Navbar() {
               <AiFillInstagram style={{ color: "white" }} size={20} />
               <SlSocialDribbble style={{ color: "white" }} size={20} />
             </Flex>
-            <Button bg='#FF593C' h='40px' radius='none' py={10} >Add Listing</Button>
+            <Button color='orange.8' h='40px' radius='none' py={10} >Add Listing</Button>
           </Flex>
         </Flex>
    
        
         
       </Box>
-      <NavbarContainer>
+      <NavbarContainer >
       <Flex 
         align='center'
         w='90%'
-        ml='auto'
-        mr='auto'
+       mx='auto'
         mt={40}
        
         py={10}
         // pos='fixed'
         justify='space-between'>
-            <Flex><img src={logo} alt='logo'/></Flex>
+            <Flex
+             sx={(theme) => ({
+               
+        
+              '@media (max-width: 940px)': {
+                  width:'40%'
+               
+                
+              },
+            })} ><img src={logo} alt='logo' width='100%'/></Flex>
             <Flex align='center' gap={20}
              sx={(theme) => ({
                
