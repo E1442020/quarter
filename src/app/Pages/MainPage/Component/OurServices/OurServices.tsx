@@ -1,9 +1,9 @@
 import { Box, Flex, Text, Title } from "@mantine/core";
 import React from "react";
 import { ServicesContainer } from "./OurServicesStyle";
-import icon1 from "../../../shared/images/icon1.png";
-import icon2 from "../../../shared/images/icon2.png";
-import icon3 from "../../../shared/images/icon3.png";
+import icon1 from "../../../../../shared/images/icon1.png";
+import icon2 from "../../../../../shared/images/icon2.png";
+import icon3 from "../../../../../shared/images/icon3.png";
 
 export default function OurServices() {
   return (

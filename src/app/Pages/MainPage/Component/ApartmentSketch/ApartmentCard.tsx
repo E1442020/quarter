@@ -1,5 +1,5 @@
 import { Flex, Title,Text, Box } from '@mantine/core'
-import img from '../../../shared/images/14.png'
+import img from '../../../../../shared/images/14.png'
 import React from 'react'
 
 export default function ApartmentCard(props:any) {

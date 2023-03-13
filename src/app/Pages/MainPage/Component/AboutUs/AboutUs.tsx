@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Text, Title, Button } from "@mantine/core";
-import img from "../../../shared/images/2.png";
+import img from "../../../../../shared/images/2.png"
 import { ImgContainer, HintContainer } from "./AboutUsStyle";
 import { AiOutlineHome, AiOutlineSecurityScan } from "react-icons/ai";
 import { GiBallPyramid } from "react-icons/gi";

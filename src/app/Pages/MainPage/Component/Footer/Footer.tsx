@@ -1,8 +1,8 @@
 import { Box, Flex, Title, Text, Button, Input } from "@mantine/core";
 import React from "react";
-import logo from "../../../shared/images/logo.png";
+import logo from "../../../../../shared/images/logo.png";
 import { FaLocationArrow } from "react-icons/fa";
-import pay from "../../../shared/images/pay.png";
+import pay from "../../../../../shared/images/pay.png";
 import { hover } from "@testing-library/user-event/dist/hover";
 export default function Footer() {
   return (

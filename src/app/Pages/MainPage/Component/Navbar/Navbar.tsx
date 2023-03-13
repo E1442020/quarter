@@ -3,7 +3,7 @@ import { AiOutlineMail, AiFillInstagram,AiOutlineSearch ,AiOutlineUser,AiOutline
 import { CiLocationOn } from "react-icons/ci";
 import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti";
 import { SlSocialDribbble } from "react-icons/sl";
-import logo from '../../../shared/images/logo.png'
+import logo from '../../../../../shared/images/logo.png'
 import { IconContainer ,NavbarContainer} from "./NavbarStyle";
 
 

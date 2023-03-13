@@ -1,8 +1,8 @@
-import img1 from "../../../shared/images/7.jpg";
-import img2 from "../../../shared/images/8.jpg";
-import img3 from "../../../shared/images/9.jpg";
-import img4 from "../../../shared/images/10.jpg";
-import img5 from "../../../shared/images/11.jpg";
+import img1 from "../../../../../shared/images/7.jpg";
+import img2 from "../../../../../shared/images/8.jpg";
+import img3 from "../../../../../shared/images/9.jpg";
+import img4 from "../../../../../shared/images/10.jpg";
+import img5 from "../../../../../shared/images/11.jpg";
 
 export const FeaturedListingsData = [
   {

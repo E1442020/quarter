@@ -7,10 +7,10 @@ import React from "react";
 import { BiBed, BiBath } from "react-icons/bi";
 import { AiFillCar } from "react-icons/ai";
 import { TbSquare } from "react-icons/tb";
-import img1 from "../../../shared/images/3.jpg";
-import img2 from "../../../shared/images/4.jpg";
-import img3 from "../../../shared/images/5.jpg";
-import img4 from "../../../shared/images/6.png";
+import img1 from "../../../../../shared/images/3.jpg";
+import img2 from "../../../../../shared/images/4.jpg";
+import img3 from "../../../../../shared/images/5.jpg";
+import img4 from "../../../../../shared/images/6.png";
 export default function SellsProperties() {
   const [opened, { open, close }] = useDisclosure(false);
 

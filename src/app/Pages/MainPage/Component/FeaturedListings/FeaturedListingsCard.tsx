@@ -8,7 +8,7 @@ import {
   AiOutlinePlusCircle,
 } from "react-icons/ai";
 import { TbSquare } from "react-icons/tb";
-import avatarImg from "../../../shared/images/avatar.jpg";
+import avatarImg from "../../../../../shared/images/avatar.jpg";
 export default function FeaturedListingsCard(props: any) {
   return (
     <>

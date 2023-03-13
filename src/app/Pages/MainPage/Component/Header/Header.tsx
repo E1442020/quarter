@@ -2,8 +2,9 @@ import React from "react";
 import { Box, Flex, Text, Button, Title, Select } from "@mantine/core";
 import { Carousel } from "@mantine/carousel";
 import { AiFillHome, AiFillPlayCircle } from "react-icons/ai";
-import img1 from "../../../shared/images/21.png";
+import img1 from "../../../../../shared/images/21.png";
 import { SelectContainer,Container } from "./HeaderStyle";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
@@ -196,7 +197,7 @@ export default function Header() {
             ]}
           />
           <Button px="xl" color='orange.8'>
-            Find Now
+            <Link to='info'>Find Now</Link>
           </Button>
         </SelectContainer>
       </Container>
