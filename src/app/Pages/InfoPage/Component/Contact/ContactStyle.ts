@@ -27,6 +27,9 @@ width :50%;
 export const TextareaContainer=styled<any>(Flex)`
 border :1px solid #e9edc9;
 padding :10px;
+@media(max-width: 940px) {
+    width:100%;
+ }
 
 
 
