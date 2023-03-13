@@ -16,7 +16,10 @@ border-left: 3px solid #FF5A3C
 export const InputContainer=styled<any>(Flex)`
 border :1px solid #e9edc9;
 padding :10px;
-width :50%
+width :50%;
+@media(max-width: 940px) {
+    width:100%;
+ }
 
 
 `

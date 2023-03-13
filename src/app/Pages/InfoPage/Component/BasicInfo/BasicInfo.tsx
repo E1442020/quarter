@@ -16,12 +16,12 @@ export default function BasicInfo() {
 
         <Flex
           justify="space-between"
-          w="90%"
+          w="90%" 
           sx={(theme) => ({
             "@media (max-width: 940px)": {
               flexDirection: "column",
               gap: "10px",
-              width: "90%",
+              width: "100%",
             },
           })}
         >
@@ -31,7 +31,7 @@ export default function BasicInfo() {
             w="40%"
             sx={(theme) => ({
               "@media (max-width: 940px)": {
-                width: "90%",
+                width: "100%",
               },
             })}
           >
@@ -59,7 +59,7 @@ export default function BasicInfo() {
             w="40%"
             sx={(theme) => ({
               "@media (max-width: 940px)": {
-                width: "90%",
+                width: "100%",
               },
             })}
           >

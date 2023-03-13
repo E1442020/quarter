@@ -18,13 +18,23 @@ import {
 export default function Contact() {
   return (
     <BoxContainer mt="60px">
-      <Flex w="90%" mx="auto" direction="column" gap="30px">
+      <Flex w="90%" mx="auto" direction="column" gap="30px"
+       sx={(theme) => ({
+        "@media (max-width: 940px)": {
+         gap:'15px',
+        },
+      })}>
         <BoxTitle pl="15px">
           <Text size="lg" fw="700">
             Contact for any Inquiry
           </Text>
         </BoxTitle>
-        <Flex justify="space-between" gap="20px">
+        <Flex justify="space-between" gap="20px"
+         sx={(theme) => ({
+          "@media (max-width: 940px)": {
+            flexDirection:'column',
+          },
+        })}>
           <InputContainer justify="space-between" align="center">
             <Input
              type='text'
@@ -51,7 +61,12 @@ export default function Contact() {
           </InputContainer>
           <Flex justify="space-between"></Flex>
         </Flex>
-        <Flex justify="space-between" gap="20px">
+        <Flex justify="space-between" gap="20px"
+         sx={(theme) => ({
+          "@media (max-width: 940px)": {
+            flexDirection:'column',
+          },
+        })}>
           <InputContainer justify="space-between" align="center">
             <Select
             placeholder="Select Language"
