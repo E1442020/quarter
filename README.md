@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Quarter Building Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a quarter building application built using TypeScript. It is designed to manage and visualize the construction and maintenance of a quarter, including buildings, amenities, and other infrastructure.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+Once the development server is running, you can access the quarter building application via your web browser. The application includes the following main functionalities:
 
-### `yarn start`
+Add Buildings: Create new buildings and specify their details.
+Track Construction: Monitor the progress of building construction and maintenance.
+Visualize Layout: View a graphical representation of the quarter with buildings and amenities.
+Example Usage
+Open the application at http://localhost:3000.
+Add buildings by navigating to the "Add Building" section and filling out the form.
+View the quarter layout on the home page.
+Track construction progress by clicking on a building and updating its status.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+User-friendly Interface: Simple and intuitive interface for managing buildings and infrastructure.
+Real-time Updates: See changes immediately as you add or update buildings.
+Visualization: Graphical representation of the quarter with interactive elements.
+Responsive Design: Works on desktops, tablets, and mobile devices.
 
-### `yarn test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is built using the following technologies:
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+React: A JavaScript library for building user interfaces.
+CSS: For styling the application.
+HTML5: Structure the web application.
+D3.js: For data visualization and creating interactive graphics.
